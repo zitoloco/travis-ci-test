@@ -1,4 +1,6 @@
 {
     "name": "andreribas/travis-ci-test",
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^5.7"
+    }
 }
