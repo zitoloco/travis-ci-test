@@ -6,7 +6,10 @@ class Tester {
 
     public function run()
     {
-        return 'tester ok';
+        return [
+            'foo' => '111',
+            'bar' => '222',
+        ];
     }
 
 }
