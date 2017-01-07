@@ -1,5 +1,10 @@
 {
     "name": "andreribas/travis-ci-test",
+    "autoload": {
+        "psr-4": {
+            "Ribas\\": "src/"
+        }
+    },
     "require": {
         "phpunit/phpunit": "^5.7"
     }
