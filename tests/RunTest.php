@@ -10,4 +10,10 @@ class RunTest extends PHPUnit_Framework_TestCase {
         $this->assertArrayHasKey('foo', $t->run());
     }
 
+    public function testBar()
+    {
+        $t = new Tester();
+        $this->assertArrayHasKey('bar', $t->run());
+    }
+
 }
